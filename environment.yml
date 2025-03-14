@@ -1,0 +1,36 @@
+name: song_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - nodejs
+  - pip
+  - pip:
+    - tensorflow
+    - keras
+    - xgboost
+    - lightgbm
+    - catboost
+    - shap
+    - eli5
+    - lime
+    - mlxtend
+    - yellowbrick
+    - pandas-profiling
+    - jupyter_contrib_nbextensions
+    - jupyter_nbextensions_configurator
+    - jupyterthemes
+    - jupyterlab
+    - jupyterlab-git
+    - jupyterlab-toc
+    - jupyterlab-system-monitor
+    - jupyterlab-topbar
+    - jupyterlab-spreadsheet
