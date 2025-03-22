@@ -18,8 +18,10 @@ dependencies:
   - pip
   - pip:
     - jupyterlab
-    - ipyml
     - transformers
     - torch --index-url https://download.pytorch.org/whl/cu126
     - torchvision --index-url https://download.pytorch.org/whl/cu126
     - torchaudio --index-url https://download.pytorch.org/whl/cu126
+    - tensorboard
+    - torchmetrics
+    - datasets
