@@ -4,7 +4,7 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python
+  - python=3.9
   - numpy
   - pandas
   - pathlib
@@ -25,3 +25,4 @@ dependencies:
     - tensorboard
     - torchmetrics
     - datasets
+    - audiocraft
