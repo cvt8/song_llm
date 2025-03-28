@@ -141,8 +141,8 @@ to_text(input_file_path, output_file_path, pitchbend = True)
 """
 
 
-input_file_path = "./generated_files/example.txt"
-output_file_path = "./generated_files/example.mid"
+input_file_path = "./generated_files/example2.txt"
+output_file_path = "./generated_files/example2.mid"
 
 create_midi_file(input_file_path,
                 output_file_path,
