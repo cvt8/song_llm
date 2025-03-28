@@ -2,7 +2,7 @@ from copy import deepcopy
 import py_midicsv as pm
 import os
 import shutil
-from midi_textfinal_DadaGP import pitchbend_quantization_decoder,to_text # to test
+#from midi_textfinal_DadaGP import pitchbend_quantization_decoder,to_text # to test
 
 
 
@@ -124,7 +124,7 @@ print("Done")
 
 
 
-
+"""
 # for testing create_midi_file
 
 # to check
@@ -138,16 +138,16 @@ input_file_path = "../generated files/DadaGP_metal_midis/AC-DC - Can't Stop Rock
 output_file_path = "../generated files/AC-DC - Can't Stop Rock N' Roll.txt"
 
 to_text(input_file_path, output_file_path, pitchbend = True)
+"""
 
 
-
-input_file_path = "../generated files/AC-DC - Can't Stop Rock N' Roll.txt"
-output_file_path = "../generated files/AC-DC - Can't Stop Rock N' Roll.mid"
+input_file_path = "./generated_files/example.txt"
+output_file_path = "./generated_files/example.mid"
 
 create_midi_file(input_file_path,
                 output_file_path,
                 header = ["0, 0, Header,1, 2, 480\n", "1, 0, Start_track\n", "1, 0, Tempo, 500000\n", "1, 0, Time_signature, 4, 2, 24, 8\n", "1, 1, End_track\n", "2, 0, Start_track\n"],
-                pitchbend = True)
+                pitchbend = False)
 
 #midi_textefinal.texte("../generated files/00_BN1-129-Eb_solo_converted_PB.mid",pitchbend=True)
 print("done")
